@@ -17,7 +17,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBMEZLemh2Z0tTVkM=@18.163.122.248:8595/?outli
     cipher: chacha20-poly1305
   
   
-# v2ray:
+#v2ray:
 
 1.url配置：
 
@@ -26,6 +26,7 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInRva3lvIiwNCiAgImFkZCI6ICIzLjExMi4yMzMu
 2.字段配置：
 
  支持加密方式：auto / aes-128-gcm / chacha20-poly1305 / none
+ 
     type: vmess
     server: 3.112.233.26
     port: 34644
