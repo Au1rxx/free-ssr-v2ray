@@ -2,18 +2,34 @@
 免费ss账号 免费shadowsocks账号 免费v2ray账号 (每周更新)
 
 ----------------------------------------------------------------------------------------------------------------------------------
-2020.2.11
+2020.2.16
 
+20200216 update
 ss(r):
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCNExRSFhETmVRWkg=@18.163.122.248:8595/?outline=1
+1.url配置
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBMEZLemh2Z0tTVkM=@18.163.122.248:8595/?outline=1
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvYUM5NnJudlpvUm8=@18.163.122.248:8595/?outline=1
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpzOHFsV0hvd2lYUWo=@18.163.122.248:8595/?ou
-
-
+2.字段配置：
+    type: ss
+    server: 18.163.122.248
+    port: 8595
+    cipher: chacha20-poly1305
+  
+  
 v2ray:
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInNpbiIsDQogICJhZGQiOiAiNTIuMjIxLjE4NS44MiIsDQogICJwb3J0IjogIjI1MjUyIiwNCiAgImlkIjogImJmNmQzMTliLWY2ZDgtNDUxNi04NWU1LWU2NjdlMzI0ZTJiMCIsDQogICJhaWQiOiAiMCIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIiIsDQogICJ0bHMiOiAiIg0KfQ==
+1.url配置：
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInRva3lvIiwNCiAgImFkZCI6ICIzLjExMi4yMzMuMjYiLA0KICAicG9ydCI6ICIzNDY0NCIsDQogICJpZCI6ICI1OGExM2YxYy02YzY0LTRlZTUtOGY4Zi02YjNkZWNmODRjMzQiLA0KICAiYWlkIjogIjAiLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIiLA0KICAidGxzIjogIiINCn0=
+
+2.字段配置：
+# 支持加密方式：auto / aes-128-gcm / chacha20-poly1305 / none
+    type: vmess
+    server: 3.112.233.26
+    port: 34644
+    uuid: 58a13f1c-6c64-4ee5-8f8f-6b3decf84c34
+    alterId: 64
+    cipher: auto
+   
 
 更多更新分享见更新日期文件
+
 Telegram:https://t.me/sssocket5
