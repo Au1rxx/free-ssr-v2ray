@@ -6,7 +6,8 @@
 
 # ss(r):
 
-1 url配置
+1 url配置：
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBMEZLemh2Z0tTVkM=@18.163.122.248:8595/?outline=1
 
 2.字段配置：
