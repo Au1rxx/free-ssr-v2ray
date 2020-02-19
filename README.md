@@ -2,38 +2,43 @@
 免费ss账号 免费shadowsocks账号 免费v2ray账号 (每周更新)
 
 ----------------------------------------------------------------------------------------------------------------------------------
-20200216 update
+20200219 update
 
-# ss(r):
+---------- V2Ray 配置信息 -------------
 
-1 url配置：
+ 地址 (Address) = 13.112.9.41
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBMEZLemh2Z0tTVkM=@18.163.122.248:8595/?outline=1
+ 端口 (Port) = 54002
 
-2.字段配置：
+ 用户ID (User ID / UUID) = 4bc1d74f-2a21-4b0b-8779-f0711bec61ca
 
-    type: ss
-    server: 18.163.122.248
-    port: 8595
-    cipher: chacha20-poly1305
-  
-  
-#v2ray:
+ 额外ID (Alter Id) = 233
 
-1.url配置：
+ 传输协议 (Network) = tcp
 
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInRva3lvIiwNCiAgImFkZCI6ICIzLjExMi4yMzMuMjYiLA0KICAicG9ydCI6ICIzNDY0NCIsDQogICJpZCI6ICI1OGExM2YxYy02YzY0LTRlZTUtOGY4Zi02YjNkZWNmODRjMzQiLA0KICAiYWlkIjogIjAiLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIiLA0KICAidGxzIjogIiINCn0=
+ 伪装类型 (header type) = none
 
-2.字段配置：
-
- 支持加密方式：auto / aes-128-gcm / chacha20-poly1305 / none
+ vmess://ewoidiI6ICIyIiwKInBzIjogIjIzM3YyLmNvbV8xMy4xMTIuOS40MSIsCiJhZGQiOiAiMTMuMTEyLjkuNDEiLAoicG9ydCI6ICI1NDAwMiIsCiJpZCI6ICI0YmMxZDc0Zi0yYTIxLTRiMGItODc3OS1mMDcxMWJlYzYxY2EiLAoiYWlkIjogIjIzMyIsCiJuZXQiOiAidGNwIiwKInR5cGUiOiAibm9uZSIsCiJob3N0IjogIiIsCiJwYXRoIjogIiIsCiJ0bHMiOiAiIgp9Cg==
  
-    type: vmess
-    server: 3.112.233.26
-    port: 34644
-    uuid: 58a13f1c-6c64-4ee5-8f8f-6b3decf84c34
-    alterId: 64
-    cipher: auto
+---------- END -------------
+
+
+
+---------- Shadowsocks 配置信息 -------------
+
+ 服务器地址 = 13.112.9.41
+
+ 服务器端口 = 49919
+
+ 密码 = QruoP0999!@5
+
+ 加密协议 = chacha20-ietf-poly1305
+
+ SS 链接 = ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRcnVvUDA5OTkhQDVAMTMuMTEyLjkuNDE6NDk5MTk=#233v2.com_ss_13.112.9.41
+
+ 备注: Shadowsocks Win 4.0.6 客户端可能无法识别该 SS 链接
+ 
+ ---------- END -------------
    
 
 更多更新分享见更新日期文件
