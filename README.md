@@ -38,15 +38,17 @@
 
  ---------- TG代理（MTProxy）-------------
  
- 地址	: 52.194.193.24
+ 地址	: 52.198.228.201
  
- 端口	: 665
+ 端口	: 443
  
- 密匙	: ddc186e293ee3d37be397551f842102275
+ 密匙	: dde889d7442d74ca3d4210364cccc1d845
  
- 链接	: tg://proxy?server=52.194.193.24&port=665&secret=ddc186e293ee3d37be397551f842102275
+ 链接	: tg://proxy?server=52.198.228.201&port=443&secret=dde889d7442d74ca3d4210364cccc1d845
  
- 链接	: https://t.me/proxy?server=52.194.193.24&port=665&secret=ddc186e293ee3d37be397551f842102275
+ 链接	: https://t.me/proxy?server=52.198.228.201&port=443&secret=dde889d7442d74ca3d4210364cccc1d845
+
+ 强制安全模式	: YES
 
  ---------- END -------------
    
